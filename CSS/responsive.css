@@ -1,0 +1,406 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+     .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+
+    .navbar-nav {
+        background: #e3b2b2;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-image.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner-text {
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+    }
+
+    .banner-text p {
+        padding: 55px 115px 30px 115px;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .about-text p {
+        padding-bottom: 10px;
+    }
+
+    .about-text a {
+        text-align: center;
+        width: 100%;
+    }
+
+    #video-part {
+        padding: 60px 0;
+    }
+
+    .service-text {
+        padding-top: 40px;
+    }
+
+    .service-text img {
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .team-text-bottom a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-bottom a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-arrow-left , .team-arrow-right {
+        display: none !important;
+    }
+
+    .contact-left a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-left h3, .contact-right h3 {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .footer-top-left p {
+        padding: 0px 17px 0px 0px;
+    }
+
+    .btn-custom {
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+
+    .footer-top-middle, .footer-top-right {
+        text-align: center;
+    }
+
+    .form-inline {
+        margin-left: 118px;
+    }
+
+    .footer-top-middle h4, .footer-top-right h4 {
+        padding-bottom: 15px;
+    }
+
+    .btn-custom {
+        margin-top: 2px;
+    }
+
+    .footer-bottom-left ul li a {
+        font-size: 12px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 13px;
+    } 
+
+    #footer{
+        padding: 40px 0;
+    }
+
+    .footer-top-left img {
+        margin-left: 208px;
+    }
+
+    .footer-top-left p {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .footer-bottom-left ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+ 
+
+
+
+ }
+
+
+
+
+
+
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (min-width:576px) and (max-width: 767.98px) {
+     .about-text h2 {
+         /* color: #e01629; */
+         text-align: center;
+         padding-top: 20px;
+     }
+
+     .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+
+    .navbar-nav {
+        background: #e3b2b2;
+       
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-image.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner-text {
+        padding-top: 100px;
+      }
+
+      .banner-text p {
+        padding: 55px 60px 50px 70px;
+    }
+
+    .about-text p {
+        padding-bottom: 15px;
+    }
+
+    .about-text a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #video-part {
+        padding: 80px 0;
+    }
+
+    .service-text {
+        padding-top: 40px;
+    }
+
+    .service-text img {
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .team-text-bottom a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-bottom a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-slider-text p {
+        padding: 0px 40px;
+    }
+
+    .team-slider-text h4 {
+        padding-top: 25px;
+    }
+
+    .team-arrow-left {
+        top: 81%;
+        left: 14%;
+    }
+
+    .team-arrow-right {
+        top: 81%;
+        right: 13%;
+    }
+
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-left h3, .contact-right h3 {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .footer-top-left p {
+        padding: 0px 17px 0px 0px;
+    }
+
+    .btn-custom {
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+
+    .footer-top-middle, .footer-top-right {
+        text-align: center;
+    }
+
+    .form-inline {
+        margin-left: 85px;
+    }
+
+    .footer-top-middle h4, .footer-top-right h4 {
+        padding-bottom: 15px;
+    }
+
+    .btn-custom {
+        margin-top: 2px;
+    }
+
+    .footer-bottom-left ul li a {
+        font-size: 12px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 13px;
+    } 
+
+    #footer{
+        padding: 40px 0;
+    }
+
+
+
+ }
+
+
+
+
+
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (min-width:768px) and (max-width: 991.98px) {
+     .navbar-light .navbar-nav .nav-link {
+         text-align: center;
+     }
+
+
+     .navbar-nav {
+         background: #e3b2b2;
+     }
+
+     .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scroll-image.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner-text {
+        padding-top: 130px;
+        padding-bottom: 140px;
+      }
+      .about-text h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .about-text p {
+        padding-bottom: 10px;
+      
+    }
+
+    .service-text {
+        padding-top: 20px;
+    }
+
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+
+    #video-part {
+        padding: 100px 0;
+    }
+
+    .team-text-bottom a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .project-bottom a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .team-arrow-left {
+        top: 80%;
+        left: 14%;
+    }
+
+    .team-arrow-right {
+        top: 80%;
+        right: 13%;
+    }
+
+    .contact-left a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-left h3, .contact-right h3 {
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    .footer-top-left p {
+        padding: 0px 29px 0px 0px;
+    }
+
+    .btn-custom {
+        margin-left: 16px;
+    }
+
+    .footer-top-right ul li {
+        margin-right: -2px;
+    }
+
+    .footer-bottom-left ul li {
+        margin-right: 10px;
+    }
+
+ }
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (min-width:992px) and (max-width: 1199.98px) {}
+
+
+ /* X-Large devices (large desktops, less than 1400px) */
+ @media (min-width:1200px) and (max-width: 1399.98px) {
+    
+ }
+
+ /* XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width */
